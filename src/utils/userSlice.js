@@ -47,6 +47,7 @@ export const editProfile = createAsyncThunk("editProfile",async({data})=>{
     }
 })
 
+
 export const clearErrorWithTimeout = () => (dispatch) => {
     setTimeout(() => {
       dispatch(clearErrorMessage());
